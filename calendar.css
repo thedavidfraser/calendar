@@ -1,0 +1,65 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 31px;
+}
+
+.calendar {
+  float: left;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.month {
+  box-sizing: border-box;;
+  float: left;
+  width: 25%;
+  padding: 10px 10px 30px 10px;
+}
+
+.month:nth-child(3n - 1) {
+  clear: left;
+  margin-left: 12%;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 19px;
+}
+
+.days {
+  width: 210px;
+  margin: 20px auto;
+}
+
+span,
+strong {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+span:nth-child(7n + 1),
+strong:nth-child(7n + 1) {
+  clear: left;
+}
+
+span {
+  color: #D9D9D9;
+}
+
+strong {
+  font-weight: normal;
+}
